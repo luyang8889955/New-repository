@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="header">
+    <view class="back-btn" bindtap="onBack">返回</view>
+    <view class="title">扫码签到</view>
+  </view>
+  <view class="grid">
+    <view class="grid-item" wx:for="{{buttons}}" wx:key="name" bindtap="onButtonTap" data-name="{{item.name}}" style="background:{{item.bgColor}}">
+      <image src="{{item.icon}}" class="icon"/>
+      <view class="name">{{item.name}}</view>
+      <view class="desc">{{item.desc}}</view>
+    </view>
+  </view>
+</view>

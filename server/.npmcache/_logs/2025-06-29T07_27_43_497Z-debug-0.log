@@ -1,0 +1,179 @@
+0 verbose cli /opt/homebrew/Cellar/node/23.11.0/bin/node /opt/homebrew/bin/npm
+1 info using npm@8.19.4
+2 info using node@v23.11.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/opt/homebrew/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/Users/luyang/开发/qiandao/server/.npmrc Completed in 1ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:/Users/luyang/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/Users/luyang/开发/qiandao/server/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 1ms
+16 timing config:load:credentials Completed in 0ms
+17 timing config:load:setEnvs Completed in 0ms
+18 timing config:load Completed in 5ms
+19 timing npm:load:configload Completed in 5ms
+20 timing npm:load:mkdirpcache Completed in 0ms
+21 timing npm:load:mkdirplogs Completed in 0ms
+22 verbose title npm install /Users/luyang/Downloads/express-4.18.2.tgz /Users/luyang/Downloads/sqlite3-5.1.6.tgz
+23 verbose argv "install" "--offline" "--no-audit" "--no-package-lock" "--cache" "/Users/luyang/开发/qiandao/server/.npmcache" "--prefix" "/Users/luyang/开发/qiandao/server" "/Users/luyang/Downloads/express-4.18.2.tgz" "/Users/luyang/Downloads/sqlite3-5.1.6.tgz"
+24 timing npm:load:setTitle Completed in 2ms
+25 timing config:load:flatten Completed in 1ms
+26 timing npm:load:display Completed in 2ms
+27 verbose logfile logs-max:10 dir:/Users/luyang/开发/qiandao/server/.npmcache/_logs
+28 verbose logfile /Users/luyang/开发/qiandao/server/.npmcache/_logs/2025-06-29T07_27_43_497Z-debug-0.log
+29 timing npm:load:logFile Completed in 1ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 10ms
+33 timing arborist:ctor Completed in 0ms
+34 silly logfile done cleaning log files
+35 timing arborist:ctor Completed in 0ms
+36 timing idealTree:init Completed in 3ms
+37 timing idealTree:userRequests Completed in 19ms
+38 silly idealTree buildDeps
+39 silly fetch manifest express@file:../../../Downloads/express-4.18.2.tgz
+40 silly fetch manifest sqlite3@file:../../../Downloads/sqlite3-5.1.6.tgz
+41 silly placeDep ROOT express@4.18.2 OK for: qiandao-server@1.0.0 want: file:../../../Downloads/express-4.18.2.tgz
+42 silly placeDep ROOT sqlite3@5.1.6 OK for: qiandao-server@1.0.0 want: file:../../../Downloads/sqlite3-5.1.6.tgz
+43 silly fetch manifest accepts@~1.3.8
+44 silly fetch manifest array-flatten@1.1.1
+45 silly fetch manifest body-parser@1.20.1
+46 silly fetch manifest content-disposition@0.5.4
+47 silly fetch manifest content-type@~1.0.4
+48 silly fetch manifest cookie@0.5.0
+49 silly fetch manifest cookie-signature@1.0.6
+50 silly fetch manifest debug@2.6.9
+51 silly fetch manifest depd@2.0.0
+52 silly fetch manifest encodeurl@~1.0.2
+53 silly fetch manifest escape-html@~1.0.3
+54 silly fetch manifest etag@~1.8.1
+55 silly fetch manifest finalhandler@1.2.0
+56 silly fetch manifest fresh@0.5.2
+57 silly fetch manifest http-errors@2.0.0
+58 silly fetch manifest merge-descriptors@1.0.1
+59 silly fetch manifest methods@~1.1.2
+60 silly fetch manifest on-finished@2.4.1
+61 silly fetch manifest parseurl@~1.3.3
+62 silly fetch manifest path-to-regexp@0.1.7
+63 silly fetch manifest proxy-addr@~2.0.7
+64 silly fetch manifest qs@6.11.0
+65 silly fetch manifest range-parser@~1.2.1
+66 silly fetch manifest safe-buffer@5.2.1
+67 silly fetch manifest send@0.18.0
+68 silly fetch manifest serve-static@1.15.0
+69 silly fetch manifest setprototypeof@1.2.0
+70 silly fetch manifest statuses@2.0.1
+71 silly fetch manifest type-is@~1.6.18
+72 silly fetch manifest utils-merge@1.0.1
+73 silly fetch manifest vary@~1.1.2
+74 silly fetch manifest @mapbox/node-pre-gyp@^1.0.0
+75 silly fetch manifest node-addon-api@^4.2.0
+76 silly fetch manifest tar@^6.1.11
+77 silly fetch manifest node-gyp@8.x
+78 timing idealTree:#root Completed in 22ms
+79 silly placeDep node_modules/express accepts@ OK for: express@4.18.2 want: ~1.3.8
+80 silly placeDep node_modules/express array-flatten@ OK for: express@4.18.2 want: 1.1.1
+81 silly placeDep node_modules/express body-parser@ OK for: express@4.18.2 want: 1.20.1
+82 silly placeDep node_modules/express content-disposition@ OK for: express@4.18.2 want: 0.5.4
+83 silly placeDep node_modules/express content-type@ OK for: express@4.18.2 want: ~1.0.4
+84 silly placeDep node_modules/express cookie@ OK for: express@4.18.2 want: 0.5.0
+85 silly placeDep node_modules/express cookie-signature@ OK for: express@4.18.2 want: 1.0.6
+86 silly placeDep node_modules/express debug@ OK for: express@4.18.2 want: 2.6.9
+87 silly placeDep node_modules/express depd@ OK for: express@4.18.2 want: 2.0.0
+88 silly placeDep node_modules/express encodeurl@ OK for: express@4.18.2 want: ~1.0.2
+89 silly placeDep node_modules/express escape-html@ OK for: express@4.18.2 want: ~1.0.3
+90 silly placeDep node_modules/express etag@ OK for: express@4.18.2 want: ~1.8.1
+91 silly placeDep node_modules/express finalhandler@ OK for: express@4.18.2 want: 1.2.0
+92 silly placeDep node_modules/express fresh@ OK for: express@4.18.2 want: 0.5.2
+93 silly placeDep node_modules/express http-errors@ OK for: express@4.18.2 want: 2.0.0
+94 silly placeDep node_modules/express merge-descriptors@ OK for: express@4.18.2 want: 1.0.1
+95 silly placeDep node_modules/express methods@ OK for: express@4.18.2 want: ~1.1.2
+96 silly placeDep node_modules/express on-finished@ OK for: express@4.18.2 want: 2.4.1
+97 silly placeDep node_modules/express parseurl@ OK for: express@4.18.2 want: ~1.3.3
+98 silly placeDep node_modules/express path-to-regexp@ OK for: express@4.18.2 want: 0.1.7
+99 silly placeDep node_modules/express proxy-addr@ OK for: express@4.18.2 want: ~2.0.7
+100 silly placeDep node_modules/express qs@ OK for: express@4.18.2 want: 6.11.0
+101 silly placeDep node_modules/express range-parser@ OK for: express@4.18.2 want: ~1.2.1
+102 silly placeDep node_modules/express safe-buffer@ OK for: express@4.18.2 want: 5.2.1
+103 silly placeDep node_modules/express send@ OK for: express@4.18.2 want: 0.18.0
+104 silly placeDep node_modules/express serve-static@ OK for: express@4.18.2 want: 1.15.0
+105 silly placeDep node_modules/express setprototypeof@ OK for: express@4.18.2 want: 1.2.0
+106 silly placeDep node_modules/express statuses@ OK for: express@4.18.2 want: 2.0.1
+107 silly placeDep node_modules/express type-is@ OK for: express@4.18.2 want: ~1.6.18
+108 silly placeDep node_modules/express utils-merge@ OK for: express@4.18.2 want: 1.0.1
+109 silly placeDep node_modules/express vary@ OK for: express@4.18.2 want: ~1.1.2
+110 timing idealTree:node_modules/express Completed in 6ms
+111 silly placeDep node_modules/sqlite3 @mapbox/node-pre-gyp@ OK for: sqlite3@5.1.6 want: ^1.0.0
+112 silly placeDep node_modules/sqlite3 node-addon-api@ OK for: sqlite3@5.1.6 want: ^4.2.0
+113 silly placeDep node_modules/sqlite3 node-gyp@ OK for: sqlite3@5.1.6 want: 8.x
+114 silly placeDep node_modules/sqlite3 tar@ OK for: sqlite3@5.1.6 want: ^6.1.11
+115 timing idealTree:node_modules/sqlite3 Completed in 1ms
+116 timing idealTree:node_modules/express/node_modules/accepts Completed in 0ms
+117 timing idealTree:node_modules/express/node_modules/array-flatten Completed in 0ms
+118 timing idealTree:node_modules/express/node_modules/body-parser Completed in 0ms
+119 timing idealTree:node_modules/express/node_modules/content-disposition Completed in 0ms
+120 timing idealTree:node_modules/express/node_modules/content-type Completed in 0ms
+121 timing idealTree:node_modules/express/node_modules/cookie Completed in 0ms
+122 timing idealTree:node_modules/express/node_modules/cookie-signature Completed in 0ms
+123 timing idealTree:node_modules/express/node_modules/debug Completed in 0ms
+124 timing idealTree:node_modules/express/node_modules/depd Completed in 0ms
+125 timing idealTree:node_modules/express/node_modules/encodeurl Completed in 0ms
+126 timing idealTree:node_modules/express/node_modules/escape-html Completed in 0ms
+127 timing idealTree:node_modules/express/node_modules/etag Completed in 0ms
+128 timing idealTree:node_modules/express/node_modules/finalhandler Completed in 0ms
+129 timing idealTree:node_modules/express/node_modules/fresh Completed in 0ms
+130 timing idealTree:node_modules/express/node_modules/http-errors Completed in 0ms
+131 timing idealTree:node_modules/express/node_modules/merge-descriptors Completed in 0ms
+132 timing idealTree:node_modules/express/node_modules/methods Completed in 0ms
+133 timing idealTree:node_modules/express/node_modules/on-finished Completed in 0ms
+134 timing idealTree:node_modules/express/node_modules/parseurl Completed in 0ms
+135 timing idealTree:node_modules/express/node_modules/path-to-regexp Completed in 0ms
+136 timing idealTree:node_modules/express/node_modules/proxy-addr Completed in 0ms
+137 timing idealTree:node_modules/express/node_modules/qs Completed in 0ms
+138 timing idealTree:node_modules/express/node_modules/range-parser Completed in 0ms
+139 timing idealTree:node_modules/express/node_modules/safe-buffer Completed in 0ms
+140 timing idealTree:node_modules/express/node_modules/send Completed in 0ms
+141 timing idealTree:node_modules/express/node_modules/serve-static Completed in 0ms
+142 timing idealTree:node_modules/express/node_modules/setprototypeof Completed in 0ms
+143 timing idealTree:node_modules/express/node_modules/statuses Completed in 0ms
+144 timing idealTree:node_modules/express/node_modules/type-is Completed in 0ms
+145 timing idealTree:node_modules/express/node_modules/utils-merge Completed in 0ms
+146 timing idealTree:node_modules/express/node_modules/vary Completed in 0ms
+147 timing idealTree:node_modules/sqlite3/node_modules/@mapbox/node-pre-gyp Completed in 0ms
+148 timing idealTree:node_modules/sqlite3/node_modules/node-addon-api Completed in 0ms
+149 timing idealTree:node_modules/sqlite3/node_modules/node-gyp Completed in 0ms
+150 timing idealTree:node_modules/sqlite3/node_modules/tar Completed in 0ms
+151 timing idealTree:buildDeps Completed in 30ms
+152 timing idealTree:fixDepFlags Completed in 1ms
+153 timing idealTree Completed in 53ms
+154 timing command:install Completed in 57ms
+155 verbose stack Error: request to https://registry.npmjs.org/accepts failed: cache mode is 'only-if-cached' but no cached response is available.
+155 verbose stack     at cacheFetch (/opt/homebrew/lib/node_modules/npm/node_modules/make-fetch-happen/lib/cache/index.js:12:13)
+155 verbose stack     at async fetch (/opt/homebrew/lib/node_modules/npm/node_modules/make-fetch-happen/lib/fetch.js:98:7)
+155 verbose stack     at async RegistryFetcher.packument (/opt/homebrew/lib/node_modules/npm/node_modules/pacote/lib/registry.js:92:19)
+155 verbose stack     at async RegistryFetcher.manifest (/opt/homebrew/lib/node_modules/npm/node_modules/pacote/lib/registry.js:124:23)
+155 verbose stack     at async Promise.all (index 0)
+155 verbose stack     at async [buildDepStep] (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1046:5)
+155 verbose stack     at async Arborist.buildIdealTree (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:211:7)
+155 verbose stack     at async Promise.all (index 1)
+155 verbose stack     at async Arborist.reify (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:154:5)
+155 verbose stack     at async Install.exec (/opt/homebrew/lib/node_modules/npm/lib/commands/install.js:145:5)
+156 verbose cwd /Users/luyang/开发/qiandao
+157 verbose Darwin 24.5.0
+158 verbose node v23.11.0
+159 verbose npm  v8.19.4
+160 error code ENOTCACHED
+161 error request to https://registry.npmjs.org/accepts failed: cache mode is 'only-if-cached' but no cached response is available.
+162 verbose exit 1
+163 timing npm Completed in 87ms
+164 verbose unfinished npm timer reify 1751182063527
+165 verbose unfinished npm timer reify:loadTrees 1751182063530
+166 verbose code 1
+167 error A complete log of this run can be found in:
+167 error     /Users/luyang/开发/qiandao/server/.npmcache/_logs/2025-06-29T07_27_43_497Z-debug-0.log

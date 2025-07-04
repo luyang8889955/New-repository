@@ -1,0 +1,19 @@
+<view class="container">
+  <view class="header">
+    <view class="back-btn" bindtap="onBack">返回</view>
+    <view class="page-title">签到列表</view>
+  </view>
+  <view class="tabs">
+    <view class="tab" wx:for="{{tabs}}" wx:key="name" bindtap="onTabChange" data-index="{{index}}" style="color:{{currentTab==index?'#2ea7ff':'#333'}}">
+      {{item.name}}
+    </view>
+  </view>
+  <view class="search-bar">
+    <input placeholder="搜索" class="search-input"/>
+  </view>
+  <view class="empty">
+    <image src="/images/empty.png" class="empty-img"/>
+    <view class="empty-text">空空如也</view>
+    <view class="empty-desc">点击下方创建按钮去新建签到体验一下吧</view>
+  </view>
+</view>

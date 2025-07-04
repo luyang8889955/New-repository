@@ -1,0 +1,21 @@
+<view class="container">
+  <view class="header">
+    <view class="back-btn" bindtap="onBack">返回</view>
+    <view class="page-title">个人中心</view>
+  </view>
+  <view class="user-info">
+    <image src="/images/avatar.png" class="avatar"/>
+    <view class="nickname">微信用户</view>
+    <view class="id">ID: ********</view>
+  </view>
+  <view class="score-row">
+    <view>我的积分 0</view>
+    <view>用户码</view>
+  </view>
+  <view class="menu-list">
+    <view class="menu-item" wx:for="{{menus}}" wx:key="name" bindtap="onMenuTap" data-name="{{item.name}}">
+      {{item.name}}
+    </view>
+  </view>
+  <view class="version">版本3.7.2</view>
+</view>

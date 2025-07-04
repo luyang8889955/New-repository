@@ -1,0 +1,85 @@
+2025-06-29 17:57 +08:00: [dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+2025-06-29 17:57 +08:00: Connected to SQLite database
+2025-06-29 17:57 +08:00: Server running on port 3002
+2025-06-29 17:59 +08:00: [dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+2025-06-29 17:59 +08:00: Connected to SQLite database
+2025-06-29 17:59 +08:00: Server running on port 3002
+2025-06-29 17:59 +08:00: 2025-06-29T09:59:41.444Z GET /api/test 404 1.314 ms
+2025-06-29 17:59 +08:00: 2025-06-29T09:59:41.445Z GET /api/test 404 1.314 ms - 147
+2025-06-29 18:22 +08:00: [dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+2025-06-29 18:22 +08:00: Connected to SQLite database
+2025-06-29 18:22 +08:00: Server running on port 3002
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+Connected to SQLite database
+Server running on port 3002
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+已连接到 SQLite 数据库
+info: 数据库连接成功 {"timestamp":"2025-06-29T14:28:41.863Z"}
+服务器运行在端口 3002
+info: 服务器启动成功 {"port":"3002","timestamp":"2025-06-29T14:28:41.865Z"}
+info: 用户登录成功 {"openid":"offline_mock_openid_1751207413155","timestamp":"2025-06-29T14:30:13.159Z"}
+info: ::1 - - [29/Jun/2025:14:30:13 +0000] "POST /api/login HTTP/1.1" 200 153 "-" "curl/8.7.1" {"timestamp":"2025-06-29T14:30:13.163Z"}
+error: 获取活动列表失败 {"error":"SQLITE_ERROR: no such column: status","timestamp":"2025-06-29T14:31:28.048Z"}
+info: ::1 - - [29/Jun/2025:14:31:28 +0000] "GET /api/activities HTTP/1.1" 500 54 "-" "curl/8.7.1" {"timestamp":"2025-06-29T14:31:28.050Z"}
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+已连接到 SQLite 数据库
+info: 数据库连接成功 {"timestamp":"2025-06-29T14:31:39.226Z"}
+服务器运行在端口 3002
+info: 服务器启动成功 {"port":"3002","timestamp":"2025-06-29T14:31:39.227Z"}
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+已连接到 SQLite 数据库
+info: 数据库连接成功 {"timestamp":"2025-06-29T14:32:43.961Z"}
+服务器运行在端口 3002
+info: 服务器启动成功 {"port":"3002","timestamp":"2025-06-29T14:32:43.962Z"}
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+已连接到 SQLite 数据库
+info: 数据库连接成功 {"timestamp":"2025-07-02T14:10:05.547Z"}
+服务器运行在端口 3002
+info: 服务器启动成功 {"port":"3002","timestamp":"2025-07-02T14:10:05.548Z"}
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+已连接到 SQLite 数据库
+info: 数据库连接成功 {"timestamp":"2025-07-02T14:10:34.341Z"}
+服务器运行在端口 3002
+info: 服务器启动成功 {"port":"3002","timestamp":"2025-07-02T14:10:34.342Z"}
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+已连接到 SQLite 数据库
+info: 数据库连接成功 {"timestamp":"2025-07-02T14:12:53.052Z"}
+服务器运行在端口 3002
+info: 服务器启动成功 {"port":"3002","timestamp":"2025-07-02T14:12:53.053Z"}
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+已连接到 SQLite 数据库
+info: 数据库连接成功 {"timestamp":"2025-07-02T14:14:17.152Z"}
+服务器运行在端口 3002
+info: 服务器启动成功 {"port":"3002","timestamp":"2025-07-02T14:14:17.153Z"}
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+[dotenv@17.0.0] injecting env (4) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
